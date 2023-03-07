@@ -1,1 +1,3 @@
-
+config:
+  server:
+    name: movie info
