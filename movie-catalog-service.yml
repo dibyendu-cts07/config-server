@@ -1,2 +1,3 @@
-ms:
-  
+config:
+  server:
+    name: movie catalog
