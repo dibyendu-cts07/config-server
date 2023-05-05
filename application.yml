@@ -3,4 +3,4 @@ config:
     name: test configuration default update
 token:
   expiration-time: '{cipher}3ccdca853dd3c50d37ffcf18df74f212f19f315c6386cef3f0d8aa5d58475678'
-  secret: rs05n5iu6y6np4wmjheww5ugtgia6zjuu42s36cqnh4bla2jttemil08qrwj
+  secret: '{cipher}6133b1a5492b70c7e419c85ff78636b1397cb5c634fc1f76540a72945b6ca52a4df0460ef8955f63eb1ffd3b49d175812eced861b6900806358afbce685e1add461c6635fcc1184124a7ceaf51b277e2'
