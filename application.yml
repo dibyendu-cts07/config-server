@@ -2,5 +2,5 @@ config:
   server:
     name: test configuration default update
 token:
-  expiration-time: 360
+  expiration-time: 3ccdca853dd3c50d37ffcf18df74f212f19f315c6386cef3f0d8aa5d58475678
   secret: rs05n5iu6y6np4wmjheww5ugtgia6zjuu42s36cqnh4bla2jttemil08qrwj
