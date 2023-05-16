@@ -10,3 +10,7 @@ albums:
   url: http://albums-ws//users/%s/albums
   exceptions:
     albums-not-found: User albums not found
+eureka:
+  client:
+    service-url:
+      defaultZone: http://test:test@localhost:8010/eureka
