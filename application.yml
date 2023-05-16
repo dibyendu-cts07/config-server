@@ -10,7 +10,9 @@ albums:
   url: http://albums-ws//users/%s/albums
   exceptions:
     albums-not-found: User albums not found
+custom-eureka:
+  password: '{cipher}AQAIhIzCbMWN29sSTeUWkhISu1Wo4UHMwMLGGgF9DPaZ4529FTaqjA7PVjVXaUei8P3t/cQSJXGG2QMyEN5CdW93P08MF7UcKPpniDTAAEoRE+nqm6tUob/yu+pcv+bmyOnCgNcY77DVMzuslqgP3bp8vsJUCPXph+jQKkdUS8VS/kc9miju2Vrc3RwtIw3IX19RV681WU+1lQXTpM0ssSDIjnNkTHpvpR20iiNfI0tkQgYvkRTszw4D+3uGdtg7LxkkdPZg3f0eTBpXRpOscRfPvNuKNUDoJ4H9W/72VMHmMuRNQyhbg1jN/Up3hgnHgKKAUQyPGtOkQVDKunzoC5chW1Ew2ebSlrRfURPDOd2jnzXVHSFQxp6TEqdO01J5myM='
 eureka:
   client:
     service-url:
-      defaultZone: http://test:test@localhost:8010/eureka
+      defaultZone: http://test:${custom-eureka.password}@localhost:8010/eureka
